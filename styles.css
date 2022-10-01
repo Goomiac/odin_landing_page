@@ -2,9 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: stretch;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     margin: 0;
+    min-height: 100vh;
     height: 100%;
 }
 
@@ -16,7 +18,6 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     gap: 200px;
-    flex: 1 0 auto;
 }
 
 ul {
@@ -125,7 +126,6 @@ img.round_border {
     margin: 50px 300px;
     padding: 30px 50px;
     border-radius: 10px;
-    gap: 50px;
     background-color: #3882f6;
     color: #E5E7EB;
 }
@@ -136,5 +136,7 @@ img.round_border {
 }
 
 footer {
-    flex: 1;
+    background-color: #1F2937;
+    height: 30px;
+    margin-top: auto;
 }
